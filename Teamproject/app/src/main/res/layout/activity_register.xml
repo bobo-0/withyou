@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.boyoung.teamproject.Activity.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id = "@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_id"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/imageView"/>
+
+    <EditText
+        android:id="@+id/idText"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_marginLeft="40dp"
+        android:layout_alignBottom="@+id/id"
+        android:layout_toEndOf="@+id/password" />
+    <Button
+        android:id="@+id/validatebutton"
+        android:layout_width="50dp"
+        android:text="v"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/idText"
+        android:layout_alignBottom="@+id/id"/>
+
+    <TextView
+        android:id = "@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/id"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_marginLeft="40dp"
+        android:layout_alignBottom="@+id/password"
+        android:layout_toEndOf="@+id/password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id = "@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_marginLeft="40dp"
+        android:layout_alignBottom="@+id/name"
+        android:layout_toEndOf="@+id/password"/>
+
+    <TextView
+        android:id = "@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/string_phone"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/phoneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:layout_marginLeft="40dp"
+        android:layout_alignBottom="@+id/phone"
+        android:layout_toEndOf="@+id/password" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

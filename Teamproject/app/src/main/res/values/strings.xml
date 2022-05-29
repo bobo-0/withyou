@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WITHYOU</string>
+    <string name="acition_setting">Settings</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="signin">You are not member? please sign in..</string>
+    <string name="string_id">Student#</string>
+    <string name="delete">Delete</string>
+    <string name="string_password">PassWord</string>
+    <string name="string_name">UserName</string>
+    <string name="string_phone">Phone</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

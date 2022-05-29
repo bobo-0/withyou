@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.boyoung.teamproject.Fragment.BoardFragment">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/write"
+        android:src="@drawable/write"
+        android:background="#00FF0000"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="80dp"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/boardlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="80dp"
+        android:background="#00FF0000"
+        android:src="@drawable/boardlist" />
+
+
+</FrameLayout>

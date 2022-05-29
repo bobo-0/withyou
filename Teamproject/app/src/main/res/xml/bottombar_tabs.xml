@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <tabs>
+        <tab
+            id="@+id/home"
+            icon="@drawable/ic_home_white_24dp"
+            title="HOME"/>
+        <tab
+            id="@+id/board"
+            icon="@drawable/ic_dashboard_white_24dp"
+            title="BOARD"/>
+
+        <tab
+            id="@+id/mypage"
+            icon="@drawable/ic_perm_identity_white_24dp"
+            title="MY PAGE"/>
+        <tab
+            id="@+id/chatting"
+            icon="@drawable/ic_chat_white_24dp"
+            title="CHATTING"/>
+        <tab
+            id="@+id/setting"
+            icon="@drawable/ic_settings_white_24dp"
+            title="SETTING"/>
+    </tabs>
+
+</PreferenceScreen>
